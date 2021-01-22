@@ -1,5 +1,5 @@
 import shutil
-import os
+from os import walk as os_walk, sep as os_sep
 import json
 from configparser import ConfigParser
 
@@ -19,9 +19,9 @@ print(f" - Increasing version to {cf['DATA']['version']}")
 
 print(" - Linting files...")
 j_counter, m_counter = 0, 0
-for root, dirs, files in os.walk("build"):
+for root, dirs, files in os_walk("build"):
     for filename in files:
-        with open(file_path := root + os.sep + filename, "r+") as f:
+        with open(file_path := root + os_sep + filename, "r+") as f:
             if filename.endswith(".json"):
                 j_counter += 1
                 try:
@@ -54,7 +54,7 @@ print(f" - Zipping contents to {zip_name}.zip...")
 shutil.make_archive(zip_name, 'zip', "./build")
 
 print(" - Removing build folder...")
-# shutil.rmtree("build")
+shutil.rmtree("build")
 
 print(" - Updating config file...")
 with open("config.ini", "w") as f:
