@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blaze_rod",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:quartz\",Count:4b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blaze_powder",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:quartz\",Count:2b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ghast_tear",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:quartz\",Count:4b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magma_cream",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:quartz\",Count:4b}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

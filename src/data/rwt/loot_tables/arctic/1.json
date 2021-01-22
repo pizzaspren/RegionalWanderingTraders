@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:powder_snow_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:1,buy:{id:\"minecraft:emerald\",Count:10b}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

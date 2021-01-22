@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sea_lantern",
+                    "weight": 25,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "rwt:ocean/boats",
+                    "weight": 45,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:emerald\",Count:3b}},Potion:\"minecraft:water_breathing\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nautilus_shell",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:5,buy:{id:\"minecraft:emerald\",Count:5b}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

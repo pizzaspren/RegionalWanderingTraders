@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:prismarine_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:prismarine_crystals",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 5
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

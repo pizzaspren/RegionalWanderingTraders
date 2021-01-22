@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 5
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:campfire\",Count:1b}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

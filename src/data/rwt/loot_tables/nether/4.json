@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glowstone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shroomlight"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:quartz\",Count:1b}}}"
+                }
+            ]
+        }
+    ]
+}

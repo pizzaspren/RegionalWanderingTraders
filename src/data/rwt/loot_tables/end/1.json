@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:end_stone_bricks"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:end_stone"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 16
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:chorus_flower\",Count:1b}}}"
+                }
+            ]
+        }
+    ]
+}

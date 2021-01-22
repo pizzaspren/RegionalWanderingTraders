@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:2,buy:{id:\"minecraft:emerald\",Count:11b}},StoredEnchantments:[{lvl:3s,id:\"minecraft:frost_walker\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:2,buy:{id:\"minecraft:emerald\",Count:8b}},StoredEnchantments:[{lvl:2s,id:\"minecraft:frost_walker\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:2,buy:{id:\"minecraft:emerald\",Count:5b}},StoredEnchantments:[{lvl:1s,id:\"minecraft:frost_walker\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

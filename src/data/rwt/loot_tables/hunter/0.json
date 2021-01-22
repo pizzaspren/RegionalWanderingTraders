@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "name": "rwt:hunter/meats",
+                    "expand": true
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{rwt:{maxUses:3,buy:{id:\"minecraft:emerald\",Count:1b}}}"
+                }
+            ]
+        }
+    ]
+}

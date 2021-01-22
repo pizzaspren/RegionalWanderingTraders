@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "rwt:desert/shovels"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": 30,
+                    "treasure": true,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

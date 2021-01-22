@@ -1,0 +1,1 @@
+tellraw @s ["[",{"text":"#name ","color":"aqua"},{"text":"#version","color":"green"},{"text":"] "},{"text":"Link to trade spreadsheet","color":"gold","clickEvent":{"action":"open_url","value":"https://docs.google.com/spreadsheets/d/1F4TPfAUoG22kroq3zFg_pFcz0A5_S6eC6JmfG37_2aQ/edit?usp=sharing"}}]

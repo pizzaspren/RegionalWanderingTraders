@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "name": "minecraft:tall_flowers",
+                    "expand": true
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{rwt:{maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b}}}"
+                }
+            ]
+        }
+    ]
+}
