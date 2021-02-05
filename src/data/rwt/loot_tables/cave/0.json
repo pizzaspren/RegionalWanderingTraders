@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:tag",
-                    "name": "rwt:cave/stones",
+                    "name": "rwt:cave/blocks",
                     "expand": true
                 }
             ],

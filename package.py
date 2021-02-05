@@ -22,7 +22,7 @@ j_counter, m_counter = 0, 0
 for root, dirs, files in os_walk("build"):
     for filename in files:
         with open(file_path := root + os_sep + filename, "r+") as f:
-            if filename.endswith(".json"):
+            if (ext := filename.split(".")[-1]) == "json":
                 j_counter += 1
                 try:
                     j = json.load(f)
@@ -30,8 +30,8 @@ for root, dirs, files in os_walk("build"):
                     print(f"Failed to parse {file_path}:\n    {e.args[0]}")
                     exit(-1)
                 contents = json.dumps(j, separators=(',', ':'))
-            elif filename.endswith(".mcfunction"):
-                m_counter += 1
+            elif ext in ["mcfunction", "mcmeta"]:
+                m_counter += ext == "mcfunction"
                 lines = [line.rstrip("\r\n") for line in f.readlines()
                          if line and line[0] != "#"]
                 contents = "\n".join(lines)

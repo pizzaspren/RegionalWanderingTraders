@@ -6,7 +6,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:torch",
-                    "weight": 80,
+                    "weight": 60,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -30,6 +30,21 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:emerald\",Count:5b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_berries",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:12,buy:{id:\"minecraft:emerald\",Count:1b}}}"
                         }
                     ]
                 }

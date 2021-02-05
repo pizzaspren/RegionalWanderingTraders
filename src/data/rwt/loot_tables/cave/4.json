@@ -26,6 +26,16 @@
                             "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:emerald\",Count:2b}}}"
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:moss_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:3,buy:{id:\"minecraft:emerald\",Count:4b}}}"
+                        }
+                    ]
                 }
             ]
         }

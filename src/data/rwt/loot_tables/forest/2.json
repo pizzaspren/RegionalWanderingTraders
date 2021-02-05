@@ -1,24 +1,35 @@
 {
     "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:tag",
-                    "name": "rwt:forest/logs",
-                    "expand": true
-                }
-            ],
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 30,
+            "name": "minecraft:big_dripleaf",
             "functions": [
-                {
-                    "function": "minecraft:set_count",
-                    "count": 8
-                },
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b}}}"
-                }
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b}}}"
+              }
             ]
-        }
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 70,
+            "name": "minecraft:small_dripleaf",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b}}}"
+              }
+            ]
+          }
+        ]
+      }
     ]
-}
+  }
