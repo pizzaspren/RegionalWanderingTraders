@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "rwt:check_region/arctic",
+        "rwt:check_region/beekeeper",
+        "rwt:check_region/cave",
+        "rwt:check_region/desert",
+        "rwt:check_region/end",
+        "rwt:check_region/forest",
+        "rwt:check_region/hunter",
+        "rwt:check_region/nether",
+        "rwt:check_region/ocean"
+    ]
+}

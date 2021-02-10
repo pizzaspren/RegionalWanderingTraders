@@ -1,1 +1,6 @@
-{"values":["rwt:load"]}
+{
+  "values": [
+    "rwtlib:load",
+    "#rwtlib:load"
+  ]
+}
