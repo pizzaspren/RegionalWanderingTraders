@@ -1,2 +1,2 @@
-tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n"},{"text":"\u2500\u2500\u2500\u2500\u2500\u2500\u2500 ","bold":true},{"text":"Regional Wandering Traders ","bold":true,"color":"gold"},{"text":"\u2500\u2500\u2500\u2500\u2500\u2500\u2500","bold":true}]
+tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n"},{"text":"\u2500\u2500\u2500\u2500\u2500\u2500\u2500 ","bold":true},{"text":"Regional Wandering Traders ","bold":true,"color":"gold"},{"text":"\u2500\u2500\u2500\u2500\u2500\u2500\u2500","bold":true}]
 function #rwt:config/tell
