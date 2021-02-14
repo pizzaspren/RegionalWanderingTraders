@@ -1,0 +1,2 @@
+execute if score $rwt:beekeeper_enabled rwtlib.config matches 1 run tellraw @s ["",{"text":"[\u2714]","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/function rwt:config/beekeeper/disable"}},{"text":" Beekeeper"}]
+execute if score $rwt:beekeeper_enabled rwtlib.config matches 0 run tellraw @s ["",{"text":"[\u2716]","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function rwt:config/beekeeper/enable"}},{"text":" Beekeeper"}]

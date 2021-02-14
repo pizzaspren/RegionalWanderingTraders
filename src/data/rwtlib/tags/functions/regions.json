@@ -1,14 +1,14 @@
 {
     "replace": false,
     "values": [
-        "rwt:check_region/arctic",
-        "rwt:check_region/beekeeper",
-        "rwt:check_region/cave",
-        "rwt:check_region/desert",
-        "rwt:check_region/end",
-        "rwt:check_region/forest",
-        "rwt:check_region/hunter",
-        "rwt:check_region/nether",
-        "rwt:check_region/ocean"
+        "rwt:regions/arctic/check",
+        "rwt:regions/beekeeper/check",
+        "rwt:regions/cave/check",
+        "rwt:regions/desert/check",
+        "rwt:regions/end/check",
+        "rwt:regions/forest/check",
+        "rwt:regions/hunter/check",
+        "rwt:regions/nether/check",
+        "rwt:regions/ocean/check"
     ]
 }

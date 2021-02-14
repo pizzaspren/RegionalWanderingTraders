@@ -57,5 +57,5 @@ print(" - Removing build folder...")
 shutil.rmtree("build")
 
 print(" - Updating config file...")
-with open("config.ini", "w") as f:
-    cf.write(f, False)
+# with open("config.ini", "w") as f:
+#     cf.write(f, False)

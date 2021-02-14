@@ -1,0 +1,13 @@
+{
+    "values": [
+        "rwt:config/arctic/setup",
+        "rwt:config/beekeeper/setup",
+        "rwt:config/cave/setup",
+        "rwt:config/desert/setup",
+        "rwt:config/end/setup",
+        "rwt:config/forest/setup",
+        "rwt:config/hunter/setup",
+        "rwt:config/nether/setup",
+        "rwt:config/ocean/setup"
+    ]
+}

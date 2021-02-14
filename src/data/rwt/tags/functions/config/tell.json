@@ -1,0 +1,13 @@
+{
+    "values": [
+        "rwt:config/arctic/tell",
+        "rwt:config/beekeeper/tell",
+        "rwt:config/cave/tell",
+        "rwt:config/desert/tell",
+        "rwt:config/end/tell",
+        "rwt:config/forest/tell",
+        "rwt:config/hunter/tell",
+        "rwt:config/nether/tell",
+        "rwt:config/ocean/tell"
+    ]
+}
