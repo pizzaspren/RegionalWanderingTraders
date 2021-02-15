@@ -17,36 +17,6 @@
                             "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b}}}"
                         }
                     ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:glow_lichen",
-                    "weight": 20,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 2
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:emerald\",Count:5b}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:glow_berries",
-                    "weight": 20,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 3
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:12,buy:{id:\"minecraft:emerald\",Count:1b}}}"
-                        }
-                    ]
                 }
             ]
         }

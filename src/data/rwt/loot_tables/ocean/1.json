@@ -26,16 +26,6 @@
                             "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b}}}"
                         }
                     ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:glow_ink_sac",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:4b}}}"
-                        }
-                    ]
                 }
             ]
         }

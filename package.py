@@ -49,7 +49,7 @@ for root, dirs, files in os_walk("build"):
             f.truncate()
 print(f" - Linted {j_counter} JSON files and {m_counter} MCFunction files...")
 
-zip_name = f"dist/{cf['DATA']['name'].replace(' ','')}_{cf['DATA']['version']}"
+zip_name = f"dist/{cf['DATA']['name'].replace(' ','')}_for_MC1.16"
 print(f" - Zipping contents to {zip_name}.zip...")
 shutil.make_archive(zip_name, 'zip', "./build")
 

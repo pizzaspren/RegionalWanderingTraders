@@ -9,10 +9,10 @@
                     "weight": 30,
                     "functions": [
                         {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:feather_falling": 4
-                            }
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:feather_falling"
+                            ]
                         }
                     ]
                 },

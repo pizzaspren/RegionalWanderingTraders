@@ -53,20 +53,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_ore",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:2b}}}"
-                        },
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 8
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "minecraft:diamond_ore",
                     "functions": [
                         {

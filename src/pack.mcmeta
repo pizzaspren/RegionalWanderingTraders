@@ -1,7 +1,7 @@
 {
   "pack": {
-    "pack_format": 7,
-    "description": ["",{"text":"#name ","color":"aqua"},{"text":"#version","color":"green"}],
+    "pack_format": 6,
+    "description": ["",{"text":"#name ","color":"aqua"},{"text":"for MC 1.16","color":"green"}],
     "author": "pizzaspren#3030"
   }
 }
