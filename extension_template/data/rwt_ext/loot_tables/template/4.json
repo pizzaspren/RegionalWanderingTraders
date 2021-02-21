@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:long_night_vision\"}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{rwt:{maxUses:3}}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{rwt:{buy:{id:\"minecraft:paper\",Count:2b}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

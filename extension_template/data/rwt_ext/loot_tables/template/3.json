@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "An example name"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:5b},maxUses:1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

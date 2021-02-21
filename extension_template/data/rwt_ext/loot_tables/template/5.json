@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rwt:{buy:{id:\"minecraft:stone\",Count:1b},maxUses:1}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 90,
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rwt:{buy:{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{Enchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}},maxUses:64}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
