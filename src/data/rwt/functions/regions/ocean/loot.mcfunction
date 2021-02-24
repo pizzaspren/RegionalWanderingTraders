@@ -1,3 +1,7 @@
+#debug
+tellraw @a "Setting trades for Ocean"
+#debug off
+
 data merge entity @s {CustomName:'{"text":"Ocean Wanderer","color":"aqua"}'}
 
 loot insert 48000 0 0 loot rwt:ocean/0

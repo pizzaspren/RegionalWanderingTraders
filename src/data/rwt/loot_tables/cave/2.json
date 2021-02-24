@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:4}}"
+                            "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:emerald\"}}}"
                         }
                     ]
                 }

@@ -1,3 +1,7 @@
+#debug
+tellraw @a "Setting trades for Beekeeper"
+#debug off
+
 data merge entity @s {CustomName:'{"text":"Beekeeper Wanderer","color":"yellow"}'}
 
 loot insert 48000 0 0 loot rwt:beekeeper/0

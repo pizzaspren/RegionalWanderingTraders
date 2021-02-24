@@ -1,3 +1,7 @@
+#debug
+tellraw @a "RWTLib loaded"
+#debug off
+
 scoreboard objectives add rwtlib.region dummy
 
 scoreboard objectives add rwtlib.config dummy

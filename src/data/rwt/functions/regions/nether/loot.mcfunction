@@ -1,3 +1,7 @@
+#debug
+tellraw @a "Setting trades for Nether"
+#debug off
+
 data merge entity @s {CustomName:'{"text":"Nether Wanderer","color":"red"}'}
 
 loot insert 48000 0 0 loot rwt:nether/0

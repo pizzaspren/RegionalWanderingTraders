@@ -1,3 +1,7 @@
+#debug
+tellraw @a "Setting trades for End"
+#debug off
+
 data merge entity @s {CustomName:'{"text":"End Wanderer","color":"light_purple"}'}
 
 loot insert 48000 0 0 loot rwt:end/0

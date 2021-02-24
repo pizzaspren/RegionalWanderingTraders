@@ -9,9 +9,29 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:chorus_flower\",Count:8b}}}"
+                            "tag": "{rwt:{maxUses:8,buy:{Count:8b}}}"
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:1,buy:{Count:16b}}}"
+                        },
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{Potion:\"minecraft:strong_healing\"}"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{rwt:{buy:{id:\"minecraft:chorus_flower\"}}}"
                 }
             ]
         }

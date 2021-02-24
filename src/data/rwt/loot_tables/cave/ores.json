@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:2b}}}"
+                            "tag": "{rwt:{buy:{Count:2b}}}"
                         },
                         {
                             "function": "minecraft:set_count",
@@ -23,7 +23,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:1b}}}"
+                            "tag": "{rwt:{buy:{Count:1b}}}"
                         },
                         {
                             "function": "minecraft:set_count",
@@ -37,7 +37,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:3b}}}"
+                            "tag": "{rwt:{buy:{Count:3b}}}"
                         }
                     ]
                 },
@@ -47,7 +47,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:3b}}}"
+                            "tag": "{rwt:{buy:{Count:3b}}}"
                         }
                     ]
                 },
@@ -57,7 +57,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:2b}}}"
+                            "tag": "{rwt:{buy:{Count:2b}}}"
                         },
                         {
                             "function": "minecraft:set_count",
@@ -71,7 +71,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:5b}}}"
+                            "tag": "{rwt:{buy:{Count:5b}}}"
                         }
                     ]
                 },
@@ -81,7 +81,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{buy:{id:\"minecraft:emerald\",Count:2b}}}"
+                            "tag": "{rwt:{buy:{Count:2b}}}"
                         }
                     ]
                 }

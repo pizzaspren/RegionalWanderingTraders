@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:quartz\",Count:4b}}}"
+                            "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:quartz\",Count:16b}}}"
                         }
                     ]
                 },

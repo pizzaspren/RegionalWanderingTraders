@@ -5,16 +5,12 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:torch",
+                    "name": "minecraft:emerald",
                     "weight": 60,
                     "functions": [
                         {
-                            "function": "minecraft:set_count",
-                            "count": 8
-                        },
-                        {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b}}}"
+                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:torch\",Count:8b}}}"
                         }
                     ]
                 },

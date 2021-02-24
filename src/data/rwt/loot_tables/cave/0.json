@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:tag",
-                    "name": "rwt:cave/blocks",
+                    "name": "rwt:cave/stones",
                     "expand": true
                 }
             ],
@@ -16,7 +16,7 @@
                 },
                 {
                     "function": "minecraft:set_nbt",
-                    "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b}}}"
+                    "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:2b}}}"
                 }
             ]
         }

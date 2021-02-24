@@ -3,6 +3,8 @@
         "minecraft:cobblestone",
         "minecraft:diorite",
         "minecraft:granite",
-        "minecraft:andesite"
+        "minecraft:andesite",
+        "minecraft:cobbled_deepslate",
+        "minecraft:tuff"
     ]
 }

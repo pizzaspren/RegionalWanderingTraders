@@ -1,3 +1,7 @@
+#debug
+tellraw @a "Setting trades for Desert"
+#debug off
+
 data merge entity @s {CustomName:'{"text":"Desert Wanderer","color":"gold"}'}
 
 loot insert 48000 0 0 loot rwt:desert/0
