@@ -10,6 +10,12 @@ This pack replaces the old and boring Wandering Trader with 9 different varietie
 
 To prevent players from acquiring dimensional items before entering the corresponding dimension, the Nether and End traders will only accept currency from their respective dimensions.
 
+# Configuration
+
+Don't like a trader? Since v2.0 you can disable them individually!
+```mcfunction
+/function rwt:config```
+
 # List of regions and trades
 
 You can find the list of trades [here](https://docs.google.com/spreadsheets/d/1F4TPfAUoG22kroq3zFg_pFcz0A5_S6eC6JmfG37_2aQ/edit?usp=sharing) (Google Docs).
