@@ -19,6 +19,6 @@ tellraw @s ["    "]
 
 #region Updates
 tellraw @s ["    "]
-#fold      ,{"text":"Check for updates?","color":"orange","clickEvent":{
+#fold      ,{"text":"Check for updates?","color":"green","clickEvent":{
 #fold          "action":"open_url","value":"https://www.planetminecraft.com/data-pack/regional-wandering-traders-1-17/"}}
 #endregion

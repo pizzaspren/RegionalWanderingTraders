@@ -9,6 +9,10 @@ tellraw @a [""]
 #fold      ,{"score":{"name":"$rwtlib:max_regions","objective":"rwtlib.config"}}
 #debug off
 
-function #rwtlib:regions
-function rwtlib:set_trades
+#debug
+execute if score $rwtlib:max_regions rwtlib.config matches 0 run tellraw @a "No regions configured, skipping trade assignment"
+#debug off
+
+execute unless score $rwtlib:max_regions rwtlib.config matches 0 run function #rwtlib:regions
+execute unless score $rwtlib:max_regions rwtlib.config matches 0 run function rwtlib:set_trades
 tag @s add rwtlib.modified

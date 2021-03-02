@@ -13,7 +13,7 @@ def parse_json_file(f: IO[str]) -> str:
     return json.dumps(j, separators=(',', ':'))
 
 
-def parse_mc_file(f: IO[str]) -> str:
+def parse_mc_file(f: IO[str], debug: bool) -> str:
 
     def parse_trim(lines: List[str]) -> List[str]:
         return [line.rstrip("\r\n") for line in lines]
@@ -52,12 +52,14 @@ def parse_mc_file(f: IO[str]) -> str:
     lines = f.readlines()
     lines = parse_trim(lines)
     lines = parse_fold(lines)
-    lines = parse_debug(lines)
+    if not debug:
+        lines = parse_debug(lines)
     lines = parse_comments(lines)
     return "\n".join(lines)
 
 
 def lint(path: str, cf: ConfigParser) -> None:
+    debug = cf["CONFIG"].getboolean("debug")
     j_counter, m_counter = 0, 0
     for root, dirs, files in os_walk("build"):
         for filename in files:
@@ -67,7 +69,7 @@ def lint(path: str, cf: ConfigParser) -> None:
                     contents = parse_json_file(f)
                 elif ext in ["mcfunction", "mcmeta"]:
                     m_counter += ext == "mcfunction"
-                    contents = parse_mc_file(f)
+                    contents = parse_mc_file(f, debug)
                 else:
                     continue
 
