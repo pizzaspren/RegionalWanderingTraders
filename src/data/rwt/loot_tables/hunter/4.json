@@ -28,11 +28,30 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:arrow",
-                    "weight": 70,
+                    "weight": 60,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:1b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:emerald\",Count:24b},buyB:{id:\"minecraft:arrow\",Count:16b}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:1800},{Id:24b,Amplifier:0b,Duration:1600}],CustomPotionColor:16252805}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"text": "Hunter's Arrow", "italic": false}
                         }
                     ]
                 }

@@ -7,9 +7,7 @@ tellraw @a [""]
 #fold      ,{"score":{"name":"@s","objective":"rwtlib.region"}}
 #fold      ,"/"
 #fold      ,{"score":{"name":"$rwtlib:max_regions","objective":"rwtlib.config"}}
-#debug off
 
-#debug
 execute if score $rwtlib:max_regions rwtlib.config matches 0 run tellraw @a "No regions configured, skipping trade assignment"
 #debug off
 

@@ -6,15 +6,15 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:pointed_dripstone",
-                    "weight": 60,
+                    "weight": 50,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count": 3
+                            "count": 2
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{rwt:{maxUses:4,buy:{id:\"minecraft:emerald\",Count:2b}}}"
+                            "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b}}}"
                         }
                     ]
                 },
@@ -26,7 +26,8 @@
                         {
                             "function": "minecraft:set_count",
                             "count": 8
-                        },{
+                        },
+                        {
                             "function": "minecraft:set_nbt",
                             "tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:1b}}}"
                         }
@@ -40,6 +41,21 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{rwt:{maxUses:3,buy:{id:\"minecraft:emerald\",Count:4b}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pointed_dripstone",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 5
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{rwt:{maxUses:12,buy:{id:\"minecraft:dripstone_block\",Count:2b}}}"
                         }
                     ]
                 }

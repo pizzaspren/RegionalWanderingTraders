@@ -28,10 +28,6 @@
                     "name": "minecraft:ice",
                     "functions": [
                         {
-                            "function": "minecraft:set_count",
-                            "count": 1
-                        },
-                        {
                             "function": "minecraft:set_nbt",
                             "tag": "{rwt:{maxUses:6,buy:{id:\"minecraft:emerald\",Count:1b}}}"
                         }

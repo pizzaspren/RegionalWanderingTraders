@@ -2,6 +2,7 @@
 *.pyc
 *.psd
 *.zip
+build/*
 img/ABC.png
 img/DEF.png
 img/HNO.png
