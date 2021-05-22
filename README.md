@@ -13,8 +13,8 @@ To prevent players from acquiring dimensional items before entering the correspo
 # Configuration
 
 Don't like a trader? Since v2.0 you can disable them individually!
-```mcfunction
-/function rwt:config```
+
+```/function rwt:config```
 
 # List of regions and trades
 
@@ -24,9 +24,7 @@ You can suggest new/modified trades [here](https://forms.gle/X4srRTeXSKc886fD6) 
 
 If you want to access the list of trades you can also run the following command. It will paste the link in the chat.
 
-```mcfunction
-function rwt:info
-```
+```/function rwt:info```
 
 # Contact
 
