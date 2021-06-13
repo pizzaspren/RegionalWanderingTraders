@@ -1,5 +1,0 @@
-maxUses|weight|sellId|sellCount|sellNbt|buyId|buyCount|buyNbt|buyBId|buyBCount|buyBNbt|extraFunction
-||#rwt:caves/stones|||||||||
-#pool_functions
-#{"function": "minecraft:set_count","count": 16}
-#{"function": "minecraft:set_nbt","tag": "{rwt:{maxUses:16,buy:{id:\"minecraft:emerald\",Count:2b}}}"}

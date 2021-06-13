@@ -1,0 +1,4 @@
+maxUses |weight |sellId                   |sellCount |sellNbt                                                   |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+2       |       |minecraft:enchanted_book |1         |StoredEnchantments:[{lvl:3s,id:"minecraft:frost_walker"}] |minecraft:emerald |11       |       |       |          |        |
+2       |       |minecraft:enchanted_book |1         |StoredEnchantments:[{lvl:2s,id:"minecraft:frost_walker"}] |minecraft:emerald |8        |       |       |          |        |
+2       |       |minecraft:enchanted_book |1         |StoredEnchantments:[{lvl:1s,id:"minecraft:frost_walker"}] |minecraft:emerald |5        |       |       |          |        |

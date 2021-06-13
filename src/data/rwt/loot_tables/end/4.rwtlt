@@ -1,0 +1,3 @@
+maxUses |weight |sellId                  |sellCount |sellNbt                           |buyId                   |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+8       |       |minecraft:shulker_shell |1         |                                  |minecraft:chorus_flower |8        |       |       |          |        |
+1       |       |minecraft:potion        |1         |Potion:"minecraft:strong_healing" |minecraft:chorus_flower |16       |       |       |          |        |

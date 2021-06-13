@@ -11,7 +11,7 @@ def parse_table_entry(text: str) -> dict:
     def createBuyNbt(buy_entry):
         stringified = f"id:\"{buy_entry[I]}\",Count:{buy_entry[C]}b"
         if len(buy_entry) > 2 and (tag := buy_entry[T]):
-            stringified += f",tag:{tag}"
+            stringified += ",tag:{" + tag + "}"
         return "{" + stringified + "}"
 
     fields = [field.strip() for field in text.split("|")]
