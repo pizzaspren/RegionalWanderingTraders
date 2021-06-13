@@ -1,0 +1,2 @@
+maxUses |weight |sellId                       |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+1       |       |minecraft:powder_snow_bucket |1         |        |minecraft:emerald |10       |       |       |          |        |

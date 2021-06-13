@@ -1,0 +1,6 @@
+maxUses |weight |sellId                  |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+8       |20     |!rwt:ocean/coral        |3         |        |minecraft:emerald |1        |       |       |          |        |
+8       |15     |!rwt:ocean/coral_fans   |3         |        |minecraft:emerald |1        |       |       |          |        |
+8       |15     |!rwt:ocean/coral_blocks |8         |        |minecraft:emerald |3        |       |       |          |        |
+16      |25     |minecraft:clay_ball     |5         |        |minecraft:emerald |1        |       |       |          |        |
+16      |25     |minecraft:gravel        |8         |        |minecraft:emerald |2        |       |       |          |        |

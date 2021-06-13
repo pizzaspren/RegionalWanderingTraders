@@ -1,0 +1,5 @@
+maxUses |weight |sellId                     |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+3       |50     |minecraft:fishing_rod      |1         |        |minecraft:emerald |12       |       |       |          |        |{"function": "minecraft:enchant_with_levels","levels": 30,"treasure": true}
+2       |30     |minecraft:trident          |1         |        |minecraft:emerald |18       |       |       |          |        |{"function": "minecraft:enchant_with_levels","levels": 30,"treasure": false,"conditions": [{"condition": "minecraft:random_chance","chance": 0.3}]}
+4       |10     |minecraft:heart_of_the_sea |1         |        |minecraft:emerald |12       |       |       |          |        |
+4       |10     |minecraft:sponge           |1         |        |minecraft:emerald |12       |       |       |          |        |

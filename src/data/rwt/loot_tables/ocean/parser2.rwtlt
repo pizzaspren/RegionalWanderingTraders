@@ -1,0 +1,5 @@
+maxUses |weight |sellId               |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+5       |       |minecraft:scute      |1         |        |minecraft:emerald |5        |       |       |          |        |
+5       |       |minecraft:sea_pickle |1         |        |minecraft:emerald |2        |       |       |          |        |
+12      |       |minecraft:seagrass   |4         |        |minecraft:emerald |1        |       |       |          |        |
+12      |       |minecraft:kelp       |1         |        |minecraft:emerald |1        |       |       |          |        |

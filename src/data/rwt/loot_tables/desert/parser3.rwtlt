@@ -1,0 +1,5 @@
+maxUses|weight|sellId|sellCount|sellNbt|buyId|buyCount|buyNbt|buyBId|buyBCount|buyBNbt|extraFunction
+||#rwt:desert/sandstone|||||||||
+#pool_functions
+#{"function": "minecraft:set_count","count": 8}
+#{"function": "minecraft:set_nbt","tag": "{rwt:{maxUses:8,buy:{id:\"minecraft:emerald\",Count:2b}}}"}

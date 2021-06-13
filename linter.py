@@ -1,7 +1,9 @@
 import json
+import pathlib
 from typing import IO, List
-from os import walk as os_walk, sep as os_sep
 from configparser import ConfigParser
+
+from rwtlt_parser import read_table_from_file
 
 
 def parse_json_file(f: IO[str]) -> str:
@@ -61,25 +63,33 @@ def parse_mc_file(f: IO[str], debug: bool) -> str:
 def lint(path: str, cf: ConfigParser) -> None:
     debug = cf["CONFIG"].getboolean("debug")
     j_counter, m_counter = 0, 0
-    for root, dirs, files in os_walk("build"):
-        for filename in files:
-            with open(file_path := root + os_sep + filename, "r+") as f:
-                if (ext := filename.split(".")[-1]) == "json":
-                    j_counter += 1
-                    contents = parse_json_file(f)
-                elif ext in ["mcfunction", "mcmeta"]:
-                    m_counter += ext == "mcfunction"
-                    contents = parse_mc_file(f, debug)
-                else:
-                    continue
+    for file in pathlib.Path(path).rglob("*"):
+        print(file)
+        if file.is_dir():
+            continue
+        with file.open() as f:
+            if file.suffix == ".json":
+                j_counter += 1
+                contents = parse_json_file(f)
+            elif file.suffix == ".rwtlt":
+                j_counter += 1
+                contents = read_table_from_file(f)
+            elif file.suffix in [".mcfunction", ".mcmeta"]:
+                m_counter += file.suffix == ".mcfunction"
+                contents = parse_mc_file(f, debug)
+            else:
+                continue
 
-                if not contents:
-                    print(f"   ### Empty file {file_path} ###")
+            if not contents:
+                print(f"   ### Empty file {file.name} ###")
 
-                for kw in cf['DATA']:
-                    contents = contents.replace(f"#{kw}", cf['DATA'][kw])
+            for kw in cf['DATA']:
+                contents = contents.replace(f"#{kw}", cf['DATA'][kw])
 
-                f.seek(0)
-                f.write(contents)
-                f.truncate()
+        if file.suffix == ".rwtlt":
+            # Rename file to .json, as contents are changing format
+            # and rwtlt file should not be distributed
+            file = file.rename(file.with_suffix(".json"))
+        file.write_text(contents)
+
     print(f" - Linted {j_counter} JSON, {m_counter} MCFunction...")

@@ -1,0 +1,5 @@
+maxUses |weight |sellId                             |sellCount |sellNbt |buyId |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+        |       |#minecraft:freeze_immune_wearables |          |        |      |         |       |       |          |        |
+#pool_functions
+#{"function": "minecraft:set_nbt","tag": "{rwt:{maxUses:3,buy:{id:\"minecraft:emerald\",Count:1b}}}"}
+#{"function": "minecraft:enchant_with_levels","levels": 5,"treasure": false}

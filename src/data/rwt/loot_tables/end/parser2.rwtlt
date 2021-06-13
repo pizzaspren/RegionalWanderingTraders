@@ -1,0 +1,4 @@
+maxUses |weight |sellId                |sellCount |sellNbt |buyId                   |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+4       |       |minecraft:ender_pearl |16        |        |minecraft:chorus_flower |2        |       |       |          |        |
+8       |       |minecraft:ender_pearl |1         |        |minecraft:chorus_flower |1        |       |       |          |        |
+16      |       |minecraft:ender_pearl |4         |        |minecraft:chorus_flower |1        |       |       |          |        |

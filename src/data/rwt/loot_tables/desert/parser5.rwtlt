@@ -1,0 +1,9 @@
+maxUses |weight |sellId                      |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+1       |1      |minecraft:netherite_shovel |1         |        |minecraft:emerald |32       |       |       |          |        |
+1       |4      |minecraft:diamond_shovel   |1         |        |minecraft:emerald |24       |       |       |          |        |
+1       |15     |minecraft:golden_shovel    |1         |        |minecraft:emerald |14       |       |       |          |        |
+1       |30     |minecraft:iron_shovel      |1         |        |minecraft:emerald |8        |       |       |          |        |
+1       |30     |minecraft:stone_shovel     |1         |        |minecraft:emerald |3        |       |       |          |        |
+1       |20     |minecraft:wooden_shovel    |1         |        |minecraft:emerald |1        |       |       |          |        |
+#pool_functions
+#{"function": "minecraft:enchant_with_levels","levels": 30,"treasure": true,"conditions": [{"condition": "minecraft:random_chance","chance": 0.3 }]}

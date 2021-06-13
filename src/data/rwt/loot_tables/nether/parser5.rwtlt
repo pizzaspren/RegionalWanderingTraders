@@ -1,0 +1,4 @@
+maxUses |weight |sellId                       |sellCount |sellNbt |buyId            |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+16      |85     |minecraft:wither_rose        |1         |        |minecraft:quartz |16       |       |       |          |        |
+1       |5      |minecraft:music_disc_pigstep |1         |        |minecraft:quartz |16       |       |       |          |        |
+2       |10     |minecraft:ancient_debris     |1         |        |minecraft:quartz |16       |       |       |          |        |

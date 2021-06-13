@@ -1,0 +1,4 @@
+maxUses|weight|sellId|sellCount|sellNbt|buyId|buyCount|buyNbt|buyBId|buyBCount|buyBNbt|extraFunction
+||#rwt:hunter/meats|||||||||
+#pool_functions
+#{"function": "minecraft:set_nbt","tag": "{rwt:{maxUses:3,buy:{id:\"minecraft:emerald\",Count:1b}}}"}
