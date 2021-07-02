@@ -3,3 +3,4 @@ maxUses |weight |sellId                     |sellCount |sellNbt                 
 6       |       |minecraft:amethyst_shard   |4         |                                     |minecraft:emerald |2        |       |       |          |        |
 1       |       |minecraft:budding_amethyst |1         |                                     |minecraft:emerald |48       |       |       |          |        |
 3       |       |minecraft:moss_block       |2         |                                     |minecraft:emerald |1        |       |       |          |        |
+4       |       |minecraft:spore_blossom    |1         |                                     |minecraft:emerald |2        |       |       |          |        |
