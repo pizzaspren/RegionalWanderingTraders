@@ -1,3 +1,4 @@
+tag @s add global.ignore
 execute store result score @s rwtlib.region run data get entity @s UUID[1] 1
 scoreboard players operation @s rwtlib.region %= $rwtlib:max_regions rwtlib.config
 

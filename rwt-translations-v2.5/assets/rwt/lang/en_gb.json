@@ -1,0 +1,15 @@
+{
+	"rwt.configuration": "Configuration",
+	"rwt.spreadsheet": "Trade spreadsheet",
+	"rwt.updates": "Check for updates?",
+	
+	"rwt.arctic_wanderer": "Arctic Wanderer",
+	"rwt.beekeeper_wanderer": "Beekeeper Wanderer",
+	"rwt.cave_wanderer": "Cave Wanderer",
+	"rwt.desert_wanderer": "Desert Wanderer",
+	"rwt.end_wanderer": "End Wanderer",
+	"rwt.forest_wanderer": "Forest Wanderer",
+	"rwt.hunter_wanderer": "Hunter Wanderer",
+	"rwt.nether_wanderer": "Nether Wanderer",
+	"rwt.ocean_wanderer": "Ocean Wanderer"
+}	

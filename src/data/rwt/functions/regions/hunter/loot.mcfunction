@@ -2,7 +2,7 @@
 tellraw @a "Setting trades for Hunter"
 #debug off
 
-data merge entity @s {CustomName:'{"text":"Hunter Wanderer","color":"red"}'}
+data merge entity @s {CustomName:'{"color":"red","translate":"%1$s", "with": ["Hunter Wanderer", {"translate": "rwt.hunter_wanderer"}]}'}
 
 loot insert 48000 0 0 loot rwt:hunter/0
 loot insert 48000 0 0 loot rwt:hunter/1

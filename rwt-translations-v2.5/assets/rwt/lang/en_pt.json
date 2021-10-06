@@ -1,0 +1,15 @@
+{
+	"rwt.configuration": "Configuration",
+	"rwt.spreadsheet": "List o'Loot",
+	"rwt.updates": "Check fer updates?",
+	
+	"rwt.arctic_wanderer": "Arctic Nomad",
+	"rwt.beekeeper_wanderer": "Beekeeper Nomad",
+	"rwt.cave_wanderer": "Cave Nomad",
+	"rwt.desert_wanderer": "Desert Nomad",
+	"rwt.end_wanderer": "End Nomad",
+	"rwt.forest_wanderer": "Forest Nomad",
+	"rwt.hunter_wanderer": "Hunter Nomad",
+	"rwt.nether_wanderer": "Nether Nomad",
+	"rwt.ocean_wanderer": "Ocean Nomad"
+}

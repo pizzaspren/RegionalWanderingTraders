@@ -2,7 +2,7 @@
 tellraw @a "Setting trades for Desert"
 #debug off
 
-data merge entity @s {CustomName:'{"text":"Desert Wanderer","color":"gold"}'}
+data merge entity @s {CustomName:'{"color":"gold","translate":"%1$s", "with": ["Desert Wanderer", {"translate": "rwt.desert_wanderer"}]}'}
 
 loot insert 48000 0 0 loot rwt:desert/0
 loot insert 48000 0 0 loot rwt:desert/1
