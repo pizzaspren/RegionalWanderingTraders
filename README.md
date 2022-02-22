@@ -16,6 +16,12 @@ Don't like a trader? Since v2.0 you can disable them individually!
 
 ```/function rwt:config```
 
+# Uninstalling the datapack
+
+To remove all features of the datapack before removing it from your world just run the following command:
+
+```/function rwt:config```
+
 # List of regions and trades
 
 You can find the list of trades [here](https://docs.google.com/spreadsheets/d/1F4TPfAUoG22kroq3zFg_pFcz0A5_S6eC6JmfG37_2aQ/edit?usp=sharing) (Google Docs).

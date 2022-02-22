@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+      "rwtlib:setup/uninstall"
+    ]
+  }

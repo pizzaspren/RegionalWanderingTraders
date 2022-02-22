@@ -1,6 +1,6 @@
 {
   "values": [
-    "rwtlib:load",
+    "rwtlib:setup/load",
     "#rwtlib:load"
   ]
 }
