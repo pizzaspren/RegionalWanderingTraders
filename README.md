@@ -6,7 +6,7 @@
 
 # What is this?
 
-This pack replaces the old and boring Wandering Trader with 9 different varieties of Wandering Traders, with their custom trades related to the region they come from. Bet you've never seen a Beekeeping trader before.
+This pack replaces the old and boring Wandering Trader with 10 different varieties of Wandering Traders, with their custom trades related to the region they come from. Bet you've never seen a Beekeeping trader before.
 
 To prevent players from acquiring dimensional items before entering the corresponding dimension, the Nether and End traders will only accept currency from their respective dimensions.
 
@@ -33,8 +33,6 @@ If you want to access the list of trades you can also run the following command.
 ```/function rwt:info```
 
 # Contact
-
-:link: Discord -> pizzaspren#3030
 
 :link: [GitHub](https://github.com/pizzaspren)
 
