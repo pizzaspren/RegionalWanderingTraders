@@ -1,15 +1,15 @@
 maxUses |weight |sellId                           |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-4       |       |minecraft:iron_ore               |8         |        |minecraft:emerald |2        |       |       |          |        |
-4       |       |minecraft:gold_ore               |3         |        |minecraft:emerald |1        |       |       |          |        |
-4       |       |minecraft:redstone_ore           |1         |        |minecraft:emerald |3        |       |       |          |        |
-4       |       |minecraft:lapis_ore              |1         |        |minecraft:emerald |3        |       |       |          |        |
-4       |       |minecraft:copper_ore             |8         |        |minecraft:emerald |2        |       |       |          |        |
-4       |       |minecraft:diamond_ore            |1         |        |minecraft:emerald |5        |       |       |          |        |
-4       |       |minecraft:emerald_ore            |1         |        |minecraft:emerald |2        |       |       |          |        |
-4       |       |minecraft:deepslate_iron_ore     |8         |        |minecraft:emerald |2        |       |       |          |        |
-4       |       |minecraft:deepslate_gold_ore     |3         |        |minecraft:emerald |1        |       |       |          |        |
-4       |       |minecraft:deepslate_redstone_ore |1         |        |minecraft:emerald |3        |       |       |          |        |
-4       |       |minecraft:deepslate_lapis_ore    |1         |        |minecraft:emerald |3        |       |       |          |        |
-4       |       |minecraft:deepslate_copper_ore   |8         |        |minecraft:emerald |2        |       |       |          |        |
-4       |       |minecraft:deepslate_diamond_ore  |1         |        |minecraft:emerald |5        |       |       |          |        |
-4       |       |minecraft:deepslate_emerald_ore  |1         |        |minecraft:emerald |2        |       |       |          |        |
+      4 |       |minecraft:iron_ore               |        8 |        |minecraft:emerald |       2 |       |       |          |        |
+      4 |       |minecraft:gold_ore               |        3 |        |minecraft:emerald |       1 |       |       |          |        |
+      4 |       |minecraft:redstone_ore           |        1 |        |minecraft:emerald |       3 |       |       |          |        |
+      4 |       |minecraft:lapis_ore              |        1 |        |minecraft:emerald |       3 |       |       |          |        |
+      4 |       |minecraft:copper_ore             |        8 |        |minecraft:emerald |       2 |       |       |          |        |
+      4 |       |minecraft:diamond_ore            |        1 |        |minecraft:emerald |       5 |       |       |          |        |
+      4 |       |minecraft:emerald_ore            |        1 |        |minecraft:emerald |       2 |       |       |          |        |
+      4 |       |minecraft:deepslate_iron_ore     |        8 |        |minecraft:emerald |       2 |       |       |          |        |
+      4 |       |minecraft:deepslate_gold_ore     |        3 |        |minecraft:emerald |       1 |       |       |          |        |
+      4 |       |minecraft:deepslate_redstone_ore |        1 |        |minecraft:emerald |       3 |       |       |          |        |
+      4 |       |minecraft:deepslate_lapis_ore    |        1 |        |minecraft:emerald |       3 |       |       |          |        |
+      4 |       |minecraft:deepslate_copper_ore   |        8 |        |minecraft:emerald |       2 |       |       |          |        |
+      4 |       |minecraft:deepslate_diamond_ore  |        1 |        |minecraft:emerald |       5 |       |       |          |        |
+      4 |       |minecraft:deepslate_emerald_ore  |        1 |        |minecraft:emerald |       2 |       |       |          |        |

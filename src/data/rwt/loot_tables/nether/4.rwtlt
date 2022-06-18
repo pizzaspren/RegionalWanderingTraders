@@ -1,5 +1,5 @@
 maxUses |weight |sellId                   |sellCount |sellNbt                                                 |buyId             |buyCount |buyNbt |buyBId            |buyBCount |buyBNbt |extraFunction
-16      |       |minecraft:glowstone      |          |                                                        |minecraft:quartz  |1        |       |                  |          |        |
-16      |       |minecraft:shroomlight    |          |                                                        |minecraft:quartz  |1        |       |                  |          |        |
-4       |       |minecraft:enchanted_book |1         |StoredEnchantments:[{lvl:2s,id:"minecraft:soul_speed"}] |minecraft:emerald |7        |       |                  |          |        |
-2       |       |minecraft:lodestone      |1         |                                                        |minecraft:quartz  |32       |       |minecraft:compass |1         |        |
+     16 |       |minecraft:glowstone      |          |                                                        |minecraft:quartz  |       1 |       |                  |          |        |
+     16 |       |minecraft:shroomlight    |          |                                                        |minecraft:quartz  |       1 |       |                  |          |        |
+      4 |       |minecraft:enchanted_book |        1 |StoredEnchantments:[{lvl:2s,id:"minecraft:soul_speed"}] |minecraft:emerald |       7 |       |                  |          |        |
+      2 |       |minecraft:lodestone      |        1 |                                                        |minecraft:quartz  |      32 |       |minecraft:compass |        1 |        |

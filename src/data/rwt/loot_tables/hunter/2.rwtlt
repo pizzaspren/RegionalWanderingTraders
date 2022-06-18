@@ -1,4 +1,3 @@
-maxUses |weight |sellId               |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-5       |       |minecraft:slime_ball |3         |        |minecraft:emerald |4        |       |       |          |        |
-4       |       |minecraft:egg        |4         |        |minecraft:emerald |1        |       |       |          |        |
-8       |       |minecraft:feather    |4         |        |minecraft:emerald |1        |       |       |          |        |
+maxUses |weight |sellId            |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+      4 |       |minecraft:egg     |        4 |        |minecraft:emerald |       1 |       |       |          |        |
+      8 |       |minecraft:feather |        4 |        |minecraft:emerald |       1 |       |       |          |        |

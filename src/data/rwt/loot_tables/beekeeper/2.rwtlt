@@ -1,4 +1,4 @@
 maxUses |weight |sellId                |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-8       |       |minecraft:honeycomb   |3         |        |minecraft:emerald |1        |       |       |          |        |
-4       |       |minecraft:honey_block |1         |        |minecraft:emerald |3        |       |       |          |        |
-8       |       |minecraft:honeycomb   |1         |        |minecraft:emerald |1        |       |       |          |        |
+      8 |       |minecraft:honeycomb   |        3 |        |minecraft:emerald |       1 |       |       |          |        |
+      4 |       |minecraft:honey_block |        1 |        |minecraft:emerald |       3 |       |       |          |        |
+      8 |       |minecraft:honeycomb   |        1 |        |minecraft:emerald |       1 |       |       |          |        |

@@ -1,0 +1,3 @@
+maxUses |weight |sellId         |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+     16 |       |minecraft:dirt |       16 |        |minecraft:emerald |       1 |       |       |          |        |
+     16 |       |minecraft:mud  |       16 |        |minecraft:emerald |       1 |       |       |          |        |

@@ -1,3 +1,3 @@
-maxUses |weight |sellId                |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-8       |30       |minecraft:big_dripleaf   |1         |        |minecraft:emerald |2        |       |       |          |        |
-8       |70       |minecraft:small_dripleaf |2         |        |minecraft:emerald |1        |       |       |          |        |
+maxUses |weight |sellId                   |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+      8 |    30 |minecraft:big_dripleaf   |        1 |        |minecraft:emerald |       2 |       |       |          |        |
+      8 |    70 |minecraft:small_dripleaf |        2 |        |minecraft:emerald |       1 |       |       |          |        |

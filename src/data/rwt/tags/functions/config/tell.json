@@ -8,6 +8,7 @@
         "rwt:config/forest/tell",
         "rwt:config/hunter/tell",
         "rwt:config/nether/tell",
-        "rwt:config/ocean/tell"
+        "rwt:config/ocean/tell",
+        "rwt:config/swamp/tell"
     ]
 }

@@ -1,3 +1,3 @@
-maxUses |weight |sellId                |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-8       |       |minecraft:snowball    |16        |        |minecraft:emerald |1        |       |       |          |        |
-8       |       |minecraft:snow_block  |2         |        |minecraft:emerald |1        |       |       |          |        |
+maxUses |weight |sellId               |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+      8 |       |minecraft:snowball   |       16 |        |minecraft:emerald |       1 |       |       |          |        |
+      8 |       |minecraft:snow_block |        2 |        |minecraft:emerald |       1 |       |       |          |        |

@@ -8,6 +8,7 @@
         "rwt:config/forest/setup",
         "rwt:config/hunter/setup",
         "rwt:config/nether/setup",
-        "rwt:config/ocean/setup"
+        "rwt:config/ocean/setup",
+        "rwt:config/swamp/setup"
     ]
 }

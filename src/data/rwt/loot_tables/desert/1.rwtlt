@@ -1,4 +1,4 @@
 maxUses |weight |sellId               |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-8       |       |minecraft:sugar_cane |1         |        |minecraft:emerald |1        |       |       |          |        |
-12      |       |minecraft:green_dye  |3         |        |minecraft:emerald |1        |       |       |          |        |
-8       |       |minecraft:cactus     |1         |        |minecraft:emerald |3        |       |       |          |        |
+      8 |       |minecraft:sugar_cane |        1 |        |minecraft:emerald |       1 |       |       |          |        |
+     12 |       |minecraft:green_dye  |        3 |        |minecraft:emerald |       1 |       |       |          |        |
+      8 |       |minecraft:cactus     |        1 |        |minecraft:emerald |       3 |       |       |          |        |

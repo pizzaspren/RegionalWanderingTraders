@@ -9,6 +9,7 @@
         "rwt:regions/forest/check",
         "rwt:regions/hunter/check",
         "rwt:regions/nether/check",
-        "rwt:regions/ocean/check"
+        "rwt:regions/ocean/check",
+        "rwt:regions/swamp/check"
     ]
 }

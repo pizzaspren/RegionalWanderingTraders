@@ -1,4 +1,4 @@
-maxUses|weight|sellId|sellCount|sellNbt|buyId|buyCount|buyNbt|buyBId|buyBCount|buyBNbt|extraFunction
-||#minecraft:tall_flowers|||||||||
+maxUses |weight |sellId                  |sellCount |sellNbt |buyId |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+        |       |#minecraft:tall_flowers |          |        |      |         |       |       |          |        |
 #pool_functions
 #{"function": "minecraft:set_nbt","tag": "{rwt:{maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b}}}"}

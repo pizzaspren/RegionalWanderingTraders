@@ -1,3 +1,3 @@
 maxUses |weight |sellId            |sellCount |sellNbt                   |buyId               |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-64      |       |minecraft:emerald |1         |                          |minecraft:bone_meal |16       |       |       |          |        |
-3       |       |minecraft:potion  |1         |Potion:"minecraft:poison" |minecraft:emerald   |10       |       |       |          |        |
+     64 |       |minecraft:emerald |        1 |                          |minecraft:bone_meal |      16 |       |       |          |        |
+      3 |       |minecraft:potion  |        1 |Potion:"minecraft:poison" |minecraft:emerald   |      10 |       |       |          |        |

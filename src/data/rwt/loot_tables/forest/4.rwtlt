@@ -1,6 +1,5 @@
 maxUses |weight |sellId                  |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-12      |25     |minecraft:vine          |          |        |minecraft:emerald |1        |       |       |          |        |
-4       |15     |minecraft:cocoa_beans   |          |        |minecraft:emerald |1        |       |       |          |        |
-12      |25     |minecraft:fern          |          |        |minecraft:emerald |1        |       |       |          |        |
-12      |15     |minecraft:sweet_berries |          |        |minecraft:emerald |1        |       |       |          |        |
-16      |20     |minecraft:bamboo        |          |        |minecraft:emerald |3        |       |       |          |        |
+      4 |    15 |minecraft:cocoa_beans   |          |        |minecraft:emerald |       1 |       |       |          |        |
+     12 |    25 |minecraft:fern          |          |        |minecraft:emerald |       1 |       |       |          |        |
+     12 |    15 |minecraft:sweet_berries |          |        |minecraft:emerald |       1 |       |       |          |        |
+     16 |    20 |minecraft:bamboo        |          |        |minecraft:emerald |       3 |       |       |          |        |

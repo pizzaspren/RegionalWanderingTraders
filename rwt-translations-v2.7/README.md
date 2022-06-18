@@ -7,5 +7,3 @@ https://github.com/pizzaspren/RegionalWanderingTraders
 # Translators wanted
 -> Contact me if you can provide translations for _any_ language
     PMC: https://www.planetminecraft.com/member/pizzaspren/
-    GitHub: https://github.com/pizzaspren (also accepting PRs)
-    Discord: pizzaspren#3030

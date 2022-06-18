@@ -1,4 +1,4 @@
 maxUses |weight |sellId               |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-6       |       |minecraft:blue_ice   |1         |        |minecraft:emerald |6        |       |       |          |        |
-6       |       |minecraft:packed_ice |1         |        |minecraft:emerald |3        |       |       |          |        |
-6       |       |minecraft:ice        |1         |        |minecraft:emerald |1        |       |       |          |        |
+      6 |       |minecraft:blue_ice   |        1 |        |minecraft:emerald |       6 |       |       |          |        |
+      6 |       |minecraft:packed_ice |        1 |        |minecraft:emerald |       3 |       |       |          |        |
+      6 |       |minecraft:ice        |        1 |        |minecraft:emerald |       1 |       |       |          |        |

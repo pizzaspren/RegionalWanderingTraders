@@ -1,4 +1,4 @@
 maxUses |weight |sellId                 |sellCount |sellNbt |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-8       |60     |minecraft:emerald      |1         |        |minecraft:torch   |8        |       |       |          |        |
-4       |20     |minecraft:glow_lichen  |2         |        |minecraft:emerald |5        |       |       |          |        |
-12      |20     |minecraft:glow_berries |3         |        |minecraft:emerald |1        |       |       |          |        |
+      8 |    60 |minecraft:emerald      |        1 |        |minecraft:torch   |       8 |       |       |          |        |
+      4 |    20 |minecraft:glow_lichen  |        2 |        |minecraft:emerald |       5 |       |       |          |        |
+     12 |    20 |minecraft:glow_berries |        3 |        |minecraft:emerald |       1 |       |       |          |        |

@@ -1,6 +1,6 @@
-maxUses|weight|sellId|sellCount|sellNbt|buyId|buyCount|buyNbt|buyBId|buyBCount|buyBNbt|extraFunction
-||minecraft:horn_coral|||||||||
-||minecraft:fire_coral|||||||||
-||minecraft:bubble_coral|||||||||
-||minecraft:brain_coral|||||||||
-||minecraft:tube_coral|||||||||
+maxUses |weight |sellId                 |sellCount |sellNbt |buyId |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
+        |       |minecraft:horn_coral   |          |        |      |         |       |       |          |        |
+        |       |minecraft:fire_coral   |          |        |      |         |       |       |          |        |
+        |       |minecraft:bubble_coral |          |        |      |         |       |       |          |        |
+        |       |minecraft:brain_coral  |          |        |      |         |       |       |          |        |
+        |       |minecraft:tube_coral   |          |        |      |         |       |       |          |        |

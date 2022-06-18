@@ -1,5 +1,5 @@
 maxUses |weight |sellId                   |sellCount |sellNbt                            |buyId             |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-8       |25     |minecraft:sea_lantern    |1         |                                   |minecraft:emerald |2        |       |       |          |        |
-8       |45     |!rwt:ocean/boats         |1         |                                   |minecraft:emerald |2        |       |       |          |        |
-4       |15     |minecraft:splash_potion  |1         |Potion:"minecraft:water_breathing" |minecraft:emerald |3        |       |       |          |        |
-5       |15     |minecraft:nautilus_shell |1         |                                   |minecraft:emerald |5        |       |       |          |        |
+      8 |    25 |minecraft:sea_lantern    |        1 |                                   |minecraft:emerald |       2 |       |       |          |        |
+      8 |    45 |!rwt:ocean/boats         |        1 |                                   |minecraft:emerald |       2 |       |       |          |        |
+      4 |    15 |minecraft:splash_potion  |        1 |Potion:"minecraft:water_breathing" |minecraft:emerald |       3 |       |       |          |        |
+      5 |    15 |minecraft:nautilus_shell |        1 |                                   |minecraft:emerald |       5 |       |       |          |        |

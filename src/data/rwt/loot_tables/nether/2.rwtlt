@@ -1,5 +1,5 @@
 maxUses |weight |sellId                 |sellCount |sellNbt |buyId            |buyCount |buyNbt |buyBId |buyBCount |buyBNbt |extraFunction
-4       |       |minecraft:blaze_rod    |1         |        |minecraft:quartz |4        |       |       |          |        |
-8       |       |minecraft:blaze_powder |1         |        |minecraft:quartz |2        |       |       |          |        |
-8       |       |minecraft:ghast_tear   |1         |        |minecraft:quartz |4        |       |       |          |        |
-16      |       |minecraft:magma_cream  |2         |        |minecraft:quartz |4        |       |       |          |        |
+      4 |       |minecraft:blaze_rod    |        1 |        |minecraft:quartz |       4 |       |       |          |        |
+      8 |       |minecraft:blaze_powder |        1 |        |minecraft:quartz |       2 |       |       |          |        |
+      8 |       |minecraft:ghast_tear   |        1 |        |minecraft:quartz |       4 |       |       |          |        |
+     16 |       |minecraft:magma_cream  |        2 |        |minecraft:quartz |       4 |       |       |          |        |
