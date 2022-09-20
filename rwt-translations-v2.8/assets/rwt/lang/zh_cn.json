@@ -1,0 +1,16 @@
+{
+    "rwt.configuration": "配置",
+    "rwt.spreadsheet": "交易电子表格",
+    "rwt.updates": "检查更新？",
+    
+    "rwt.arctic_wanderer": "北极流浪者",
+    "rwt.beekeeper_wanderer": "养蜂人流浪者",
+    "rwt.cave_wanderer": "洞穴流浪者",
+    "rwt.desert_wanderer": "沙漠流浪者",
+    "rwt.end_wanderer": "终结者",
+    "rwt.forest_wanderer": "森林流浪者",
+    "rwt.hunter_wanderer": "猎人流浪者",
+    "rwt.nether_wanderer": "下界流浪者",
+    "rwt.ocean_wanderer": "海洋流浪者",
+    "rwt.swamp_wanderer": "沼泽流浪者"
+    }
