@@ -1,0 +1,18 @@
+{
+	"%1$s": "%2$s",
+	
+	"rwt.configuration": "Configuração",
+	"rwt.spreadsheet": "Planilha de trocas",
+	"rwt.updates": "Procurar por atualizações?",
+	
+	"rwt.arctic_wanderer": "Vendedor Ambulante do Ártico",
+	"rwt.beekeeper_wanderer": "Vendedor Ambulante Apicultor",
+	"rwt.cave_wanderer": "Vendedor Ambulante das Cavernas",
+	"rwt.desert_wanderer": "Vendedor Ambulante do Deserto",
+	"rwt.end_wanderer": "Vendedor Ambulante do Fim",
+	"rwt.forest_wanderer": "Vendedor Ambulante da Floresta",
+	"rwt.hunter_wanderer": "Vendedor Ambulante Caçador",
+	"rwt.nether_wanderer": "Vendedor Ambulante do Nether",
+	"rwt.ocean_wanderer": "Vendedor Ambulante do Oceano",
+	"rwt.swamp_wanderer": "Vendedor Ambulante do Pântano"
+}
