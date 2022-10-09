@@ -1,0 +1,16 @@
+{
+	"rwt.configuration": "Configuração",
+	"rwt.spreadsheet": "Planilha de trocas",
+	"rwt.updates": "Verificar atualizações?",
+	
+	"rwt.arctic_wanderer": "Ambulante do Ártico",
+	"rwt.beekeeper_wanderer": "Apicultor Ambulante",
+	"rwt.cave_wanderer": "Ambulante das Cavernas",
+	"rwt.desert_wanderer": "Ambulante do Deserto",
+	"rwt.end_wanderer": "Ambulante do Fim",
+	"rwt.forest_wanderer": "Ambulante da Floresta",
+	"rwt.hunter_wanderer": "Caçador Ambulante",
+	"rwt.nether_wanderer": "Ambulante do Nether",
+	"rwt.ocean_wanderer": "Ambulante do Oceano",
+	"rwt.swamp_wanderer": "Ambulante do Pântano"
+}
